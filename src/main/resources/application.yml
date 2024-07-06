@@ -1,0 +1,20 @@
+server:
+  port: 9090
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google-login:
+            provider: google
+            client-id: "604799567868-u08ggg7mvcglerskiruh1ibjrj2vt770.apps.googleusercontent.com"
+            client-secret: "U-bE8Uv4Q6U-fh_oFhaCgRdj"
+  datasource:
+    url: jdbc:postgresql://localhost:5444/auth2db
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+

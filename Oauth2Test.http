@@ -1,0 +1,11 @@
+### GET Request with Authentication Header
+GET http://localhost:9090/auth-user/get-all
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+###
+
+### Another GET Request
+GET http://localhost:8080/another-endpoint
+Authorization: Bearer ANOTHER_ACCESS_TOKEN
+
+###
